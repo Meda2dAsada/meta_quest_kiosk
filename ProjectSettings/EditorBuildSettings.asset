@@ -6,8 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Iker/SceneA/SceneAStart.unity
+    guid: f91528d151ce55741a253a7b4d2c12aa
+  - enabled: 1
     path: Assets/Cesar/Calendars/ScenarioA/Scenes/CalendarioScenarioA.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Iker/SceneB/SceneB.unity
+    guid: 0f89df03276356e4f87ef7ed7490dfb1
   - enabled: 1
     path: Assets/Cesar/Calendars/ScenarioB/Scenes/CalendarioScenarioB1.unity
     guid: 20694b589ebfc1d4fa16386e2e82b034
