@@ -44,7 +44,7 @@ public class CalendarController : MonoBehaviour
             SceneManager.LoadScene("SceneAStart");
         }
         else {
-            SceneManager.LoadScene("SceneB");
+            SceneManager.LoadScene("SceneBStart");
         }
     }
 
