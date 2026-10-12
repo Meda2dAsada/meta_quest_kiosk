@@ -1129,6 +1129,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CanvasBg
       objectReference: {fileID: 0}
+    - target: {fileID: 2836045442099870105, guid: 014a95031062ee14ea293edb08711444, type: 3}
+      propertyPath: m_ReferencePixelsPerUnit
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 7035457393473009716, guid: 014a95031062ee14ea293edb08711444, type: 3}
       propertyPath: m_Pivot.x
       value: 0
