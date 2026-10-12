@@ -61,10 +61,10 @@ public class CalendarController : MonoBehaviour
         }
 
         if (gameObject.scene.name == "CalendarioScenarioA") {
-            SceneManager.LoadScene("Screen1A");
+            SceneManager.LoadScene("KitShowCaseA");
         }
         else if (gameObject.scene.name == "CalendarioScenarioB2") {
-            SceneManager.LoadScene("Screen1B");
+            SceneManager.LoadScene("KitShowCaseB");
         }
     }
 }

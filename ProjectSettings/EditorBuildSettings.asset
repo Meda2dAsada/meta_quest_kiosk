@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Cesar/Calendars/ScenarioA/Scenes/CalendarioScenarioA.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
+    path: Assets/Iker/SceneA/KitShowCaseA.unity
+    guid: 17093d314298e0d4caa26428b7f3f73b
+  - enabled: 1
     path: Assets/Rodrigo/Screen1A.unity
     guid: 7121d031c8bc455bbe2c53310d945e40
   - enabled: 1
@@ -27,13 +30,13 @@ EditorBuildSettings:
     path: Assets/Cesar/Calendars/ScenarioB/Scenes/CalendarioScenarioB2.unity
     guid: cb2768fbf9d50664b9471393e5f2771c
   - enabled: 1
+    path: Assets/Iker/SceneB/KitShowCaseB.unity
+    guid: d094b15f1db2f0c4cb2f4c4629282a97
+  - enabled: 1
     path: Assets/Rodrigo/Screen1B.unity
     guid: 302909ebe0b0431f82bee7c2165f3da8
   - enabled: 1
     path: Assets/Rodrigo/Screen2B.unity
     guid: 09ca34c4dd20aec40acf88ece62b16a9
-  - enabled: 1
-    path: Assets/Iker/SceneA/KitShowCase.unity
-    guid: 17093d314298e0d4caa26428b7f3f73b
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

@@ -501,6 +501,7 @@ GameObject:
   - component: {fileID: 200000063}
   - component: {fileID: 200000064}
   - component: {fileID: 200000065}
+  - component: {fileID: 200000066}
   m_Layer: 5
   m_Name: NextButton
   m_TagString: Untagged
@@ -610,6 +611,19 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &200000066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 200000061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ad0af57f8ac6974fb094716e7c17b0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LoadSceneOnClick
+  NextSceneName: Screen2B
 --- !u!1 &200000071
 GameObject:
   m_ObjectHideFlags: 0
@@ -669,7 +683,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 0.81960785, g: 0.70980394, b: 0.1882353, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -1025,9 +1039,9 @@ MonoBehaviour:
   m_MoveAction: {fileID: -8784545083839296357, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
   m_SubmitAction: {fileID: 392368643174621059, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
   m_CancelAction: {fileID: 7727032971491509709, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_LeftClickAction: {fileID: 3001919216984127958, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_MiddleClickAction: {fileID: -218548148576083206, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_RightClickAction: {fileID: -4090225696740700456, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_LeftClickAction: {fileID: 3001919216989983466, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MiddleClickAction: {fileID: -2185481485913320682, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_RightClickAction: {fileID: -4090225696740746782, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
   m_ScrollWheelAction: {fileID: 6240969308177333660, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
   m_TrackedDevicePositionAction: {fileID: 6564999863303420839, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
   m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
@@ -1113,20 +1127,49 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -125
       objectReference: {fileID: 0}
+    - target: {fileID: 4676408400840528207, guid: dcec74f54fcd20e458e96c7dd1c5ddaa, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5962017037258946143, guid: dcec74f54fcd20e458e96c7dd1c5ddaa, type: 3}
       propertyPath: m_Name
       value: BackButton
       objectReference: {fileID: 0}
+    - target: {fileID: 8814777218879079907, guid: dcec74f54fcd20e458e96c7dd1c5ddaa, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5962017037258946143, guid: dcec74f54fcd20e458e96c7dd1c5ddaa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1628509971}
   m_SourcePrefab: {fileID: 100100000, guid: dcec74f54fcd20e458e96c7dd1c5ddaa, type: 3}
 --- !u!224 &1628509969 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4528850621815155371, guid: dcec74f54fcd20e458e96c7dd1c5ddaa, type: 3}
   m_PrefabInstance: {fileID: 1628509968}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1628509970 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5962017037258946143, guid: dcec74f54fcd20e458e96c7dd1c5ddaa, type: 3}
+  m_PrefabInstance: {fileID: 1628509968}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1628509971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628509970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ad0af57f8ac6974fb094716e7c17b0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LoadSceneOnClick
+  NextSceneName: KitShowCaseB
 --- !u!1 &1838730982
 GameObject:
   m_ObjectHideFlags: 0
