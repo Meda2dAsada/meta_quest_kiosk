@@ -297,7 +297,8 @@ GameObject:
   - component: {fileID: 690295846576923330}
   - component: {fileID: 1663108916683567357}
   - component: {fileID: 2551476783668510464}
-  - component: {fileID: 9004282445258098390}
+  - component: {fileID: 8695820979377187339}
+  - component: {fileID: 8265590513488396328}
   m_Layer: 5
   m_Name: Kit
   m_TagString: Untagged
@@ -325,9 +326,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -414, y: 330}
+  m_AnchoredPosition: {x: -165, y: -170}
   m_SizeDelta: {x: 330, y: 340}
-  m_Pivot: {x: 1, y: 1}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &690295846576923330
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -381,7 +382,20 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
   m_EffectDistance: {x: 3, y: -3}
   m_UseGraphicAlpha: 1
---- !u!114 &9004282445258098390
+--- !u!114 &8695820979377187339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4849888574904525496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ad0af57f8ac6974fb094716e7c17b0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LoadSceneOnClick
+  NextSceneName: 
+--- !u!114 &8265590513488396328
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -393,8 +407,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c43cb07e3ea6c86489642e4c224894bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KitManager
-  KitNumber: 1
-  InitialState: 1
+  KitNumber: 0
+  InitialState: 3
   KitText: {fileID: 5583158517638425624}
   KitHover: {fileID: 6467008783911329161}
   StatusColorObject: {fileID: 8083430491755634401}

@@ -1638,6 +1638,10 @@ PrefabInstance:
       propertyPath: m_fontSizeBase
       value: 30
       objectReference: {fileID: 0}
+    - target: {fileID: 8695820979377187339, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9004282445258098390, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
       propertyPath: KitHover
       value: 
@@ -1659,7 +1663,7 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 9004282445258098390, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
+    - {fileID: 8695820979377187339, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
     m_RemovedGameObjects:
     - {fileID: 8083430491755634401, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
     - {fileID: 6467008783911329161, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
