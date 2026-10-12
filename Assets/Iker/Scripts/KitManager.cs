@@ -5,7 +5,7 @@ using UnityEngine.EventSystems;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 
-public class KitManager : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
+public class KitManager : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
     public uint KitNumber = 0;
     public KitState InitialState = KitState.EMPTY;
@@ -52,19 +52,20 @@ public class KitManager : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
     {
         SetKitInfo();
     }
-    
-    
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        UserData.KitManager = this;
+    }
+
     public void OnPointerEnter(PointerEventData eventData)
     {
         if (IsEmpty()) return;
         
         KitHover.SetActive(IsUnavailable() || IsCharging());
-        
         GetComponent<Image>().color = new Color(0.51f, 0.53f, 0.54f, 1);
         StatusColorObject.GetComponent<Image>().color = KitStateColorHover[InitialState];
-        UserData.State = InitialState;
-        UserData.KitText = KitText.text;
-        UserData.KitStateColorNormal = KitStateColorNormal[InitialState];
+
     }
 
     public void OnPointerExit(PointerEventData eventData)
