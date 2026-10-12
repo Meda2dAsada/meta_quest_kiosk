@@ -986,9 +986,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kit
       objectReference: {fileID: 0}
-    - target: {fileID: 9004282445258098390, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
+    - target: {fileID: 8265590513488396328, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
       propertyPath: InitialState
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265590513488396328, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
+      propertyPath: ShowSelectedKit
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1297,6 +1301,57 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!1 &1810000000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1810000001}
+  - component: {fileID: 1810000002}
+  m_Layer: 0
+  m_Name: ReservationScreen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1810000001
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1810000000}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1810000002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1810000000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c602f94faad422794dfb8d94608b88e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ReservationScreen
+  pickupText: {fileID: 200000044}
+  subtitleText: {fileID: 200000054}
+  returnText: {fileID: 0}
+  locationText: {fileID: 0}
+  headsetText: {fileID: 0}
+  controllerText: {fileID: 0}
+  chargerText: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1305,3 +1360,4 @@ SceneRoots:
   - {fileID: 1838730984}
   - {fileID: 398718328}
   - {fileID: 1471448037}
+  - {fileID: 1810000001}

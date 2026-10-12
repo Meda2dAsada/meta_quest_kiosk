@@ -10314,6 +10314,10 @@ MonoBehaviour:
   horario1130: {fileID: 1550655488}
   confirmButton: {fileID: 590629828}
   confirmGroup: {fileID: 590629827}
+  daysGrid: {fileID: 1339923219}
+  monthLabel: {fileID: 826097007}
+  currentTimeLabel: {fileID: 1079467739}
+  availableTimesLabel: {fileID: 1186097819}
 --- !u!1 &1415856097
 GameObject:
   m_ObjectHideFlags: 0

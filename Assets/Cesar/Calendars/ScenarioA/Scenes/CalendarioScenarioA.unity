@@ -170,7 +170,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 0.2, g: 0.78039217, b: 0.34901962, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -4444,6 +4444,10 @@ MonoBehaviour:
   horario1130: {fileID: 286729717}
   confirmButton: {fileID: 2050632668}
   confirmGroup: {fileID: 2050632667}
+  daysGrid: {fileID: 990658777}
+  monthLabel: {fileID: 1050619225}
+  currentTimeLabel: {fileID: 828044083}
+  availableTimesLabel: {fileID: 2055081683}
 --- !u!1 &401243543
 GameObject:
   m_ObjectHideFlags: 0

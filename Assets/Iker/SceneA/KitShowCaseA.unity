@@ -1663,6 +1663,7 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     m_RemovedComponents:
+    - {fileID: 8265590513488396328, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
     - {fileID: 8695820979377187339, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
     m_RemovedGameObjects:
     - {fileID: 8083430491755634401, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
@@ -1682,6 +1683,67 @@ PrefabInstance:
       addedObject: {fileID: 276999720}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
+--- !u!1 &1810000000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1810000001}
+  - component: {fileID: 1810000002}
+  m_Layer: 0
+  m_Name: ReservationScreen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1810000001
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1810000000}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1810000002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1810000000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c602f94faad422794dfb8d94608b88e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ReservationScreen
+  pickupText: {fileID: 0}
+  returnText: {fileID: 0}
+  locationText: {fileID: 0}
+  headsetText: {fileID: 566552457}
+  controllerText: {fileID: 1810000003}
+  chargerText: {fileID: 1061768676}
+--- !u!114 &1810000003 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5583158517638425624, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
+  m_PrefabInstance: {fileID: 8362786193452255733}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1690,3 +1752,4 @@ SceneRoots:
   - {fileID: 1838730984}
   - {fileID: 5059941707132743098}
   - {fileID: 1471448037}
+  - {fileID: 1810000001}

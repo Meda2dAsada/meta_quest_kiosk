@@ -577,15 +577,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kit 5
       objectReference: {fileID: 0}
-    - target: {fileID: 9004282445258098390, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
+    - target: {fileID: 8265590513488396328, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
       propertyPath: KitNumber
       value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: 9004282445258098390, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
+    - target: {fileID: 8265590513488396328, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
       propertyPath: InitialState
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 9004282445258098390, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
+    - target: {fileID: 8695820979377187339, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
       propertyPath: NextSceneName
       value: CalendarioScenarioB1
       objectReference: {fileID: 0}
@@ -722,15 +722,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kit 4
       objectReference: {fileID: 0}
-    - target: {fileID: 9004282445258098390, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
+    - target: {fileID: 8265590513488396328, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
       propertyPath: KitNumber
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 9004282445258098390, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
+    - target: {fileID: 8265590513488396328, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
       propertyPath: InitialState
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 9004282445258098390, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
+    - target: {fileID: 8695820979377187339, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
       propertyPath: NextSceneName
       value: CalendarioScenarioB1
       objectReference: {fileID: 0}
@@ -849,15 +849,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kit 6
       objectReference: {fileID: 0}
-    - target: {fileID: 9004282445258098390, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
+    - target: {fileID: 8265590513488396328, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
       propertyPath: KitNumber
       value: 6
       objectReference: {fileID: 0}
-    - target: {fileID: 9004282445258098390, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
+    - target: {fileID: 8265590513488396328, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
       propertyPath: InitialState
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 9004282445258098390, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
+    - target: {fileID: 8695820979377187339, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
       propertyPath: NextSceneName
       value: CalendarioScenarioB1
       objectReference: {fileID: 0}
@@ -1045,15 +1045,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kit 3
       objectReference: {fileID: 0}
-    - target: {fileID: 9004282445258098390, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
+    - target: {fileID: 8265590513488396328, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
       propertyPath: KitNumber
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 9004282445258098390, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
+    - target: {fileID: 8265590513488396328, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
       propertyPath: InitialState
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 9004282445258098390, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
+    - target: {fileID: 8695820979377187339, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
       propertyPath: NextSceneName
       value: CalendarioScenarioB1
       objectReference: {fileID: 0}
@@ -1302,15 +1302,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kit 2
       objectReference: {fileID: 0}
-    - target: {fileID: 9004282445258098390, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
+    - target: {fileID: 8265590513488396328, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
       propertyPath: KitNumber
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 9004282445258098390, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
+    - target: {fileID: 8265590513488396328, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
       propertyPath: InitialState
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 9004282445258098390, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
+    - target: {fileID: 8695820979377187339, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
       propertyPath: NextSceneName
       value: CalendarioScenarioB1
       objectReference: {fileID: 0}
@@ -1589,13 +1589,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kit 1
       objectReference: {fileID: 0}
-    - target: {fileID: 9004282445258098390, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
+    - target: {fileID: 8265590513488396328, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
       propertyPath: InitialState
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 9004282445258098390, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
+    - target: {fileID: 8695820979377187339, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
       propertyPath: NextSceneName
       value: CalendarioScenarioB1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265590513488396328, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
+      propertyPath: KitNumber
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
