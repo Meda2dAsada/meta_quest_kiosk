@@ -59,7 +59,12 @@ public class CalendarController : MonoBehaviour
         {
             return;
         }
-        Debug.Log("Time selected: " + SelectedDay + "of September 2026, from 11:30 AM to 1:00 PM (90 Minutes)");
-    }
 
+        if (gameObject.scene.name == "CalendarioScenarioA") {
+            SceneManager.LoadScene("KitShowCaseA");
+        }
+        else if (gameObject.scene.name == "CalendarioScenarioB2") {
+            SceneManager.LoadScene("KitShowCaseB");
+        }
+    }
 }

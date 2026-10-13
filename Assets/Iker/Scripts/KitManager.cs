@@ -2,9 +2,11 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 
-public class KitManager : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
+public class KitManager : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
     public uint KitNumber = 0;
     public KitState InitialState = KitState.EMPTY;
@@ -12,9 +14,13 @@ public class KitManager : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
     public GameObject KitHover;
     public GameObject StatusColorObject;
     public TextMeshProUGUI StatusText;
+    public bool FinishReservation;
+    public string ReturnScene;
 
+    private static uint selectedKitNumber;
+    private static Dictionary<uint, KitState> reservedKits = new Dictionary<uint, KitState>();
     
-    private Dictionary<KitState, Color> KitStateColorNormal = new Dictionary<KitState, Color>()
+    public static Dictionary<KitState, Color> KitStateColorNormal = new Dictionary<KitState, Color>()
     {
         { KitState.AVAILABLE, new Color(0.368f, 0.843f, 0.325f) },
         { KitState.UNAVAILABLE, new Color(0.996f, 0.203f, 0.203f) },
@@ -22,7 +28,7 @@ public class KitManager : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
         { KitState.EMPTY, Color.white },
     };
 
-    private Dictionary<KitState, Color> KitStateColorHover = new Dictionary<KitState, Color>()
+    public static Dictionary<KitState, Color> KitStateColorHover = new Dictionary<KitState, Color>()
     {
         { KitState.AVAILABLE, new Color(0.458f, 1f, 0.411f) },
         { KitState.UNAVAILABLE, new Color(1f, 0.443f, 0.443f) },
@@ -30,7 +36,7 @@ public class KitManager : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
         { KitState.EMPTY, Color.white },
         
     };
-    private Dictionary<KitState, string> KitStateSymbol = new Dictionary<KitState, string>()
+    public static Dictionary<KitState, string> KitStateSymbol = new Dictionary<KitState, string>()
     {
         { KitState.AVAILABLE, "OK" },
         { KitState.UNAVAILABLE, "x" },
@@ -39,35 +45,61 @@ public class KitManager : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
         
     };
 
+    
+    public void SetKitInfo()
+    {
+        StatusColorObject.SetActive(!IsEmpty());
+        KitText.text = $"KIT #0{KitNumber}";
+        StatusColorObject.GetComponent<Image>().color = KitStateColorNormal[InitialState];
+        StatusText.text = KitStateSymbol[InitialState];
+    }
 
     void Start()
     {
-        StatusColorObject.SetActive(!IsEmpty());
-        StatusColorObject.GetComponent<Image>().color = KitStateColorNormal[InitialState];
-        StatusText.text = KitStateSymbol[InitialState];
-        KitText.text = $"KIT #0{KitNumber}";
+        if (FinishReservation) return;
+        
+        if (reservedKits.ContainsKey(KitNumber)) {
+            InitialState = reservedKits[KitNumber];
+            GetComponent<LoadSceneOnClick>().enabled = false;
+        }
+        SetKitInfo();
     }
-    
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        if (eventData.button != PointerEventData.InputButton.Left) return;
+
+        if (FinishReservation)
+        {
+            if (selectedKitNumber == 0) return;
+            reservedKits[selectedKitNumber] = KitState.UNAVAILABLE;
+            SceneManager.LoadScene(ReturnScene);
+            return;
+        }
+
+        if (reservedKits.ContainsKey(KitNumber)) return;
+        selectedKitNumber= KitNumber;
+        UserData.KitManager = this;
+    }
+
     public void OnPointerEnter(PointerEventData eventData)
     {
-        if (IsEmpty()) return;
+        if (FinishReservation || IsEmpty()) return;
         
         KitHover.SetActive(IsUnavailable() || IsCharging());
-        
         GetComponent<Image>().color = new Color(0.51f, 0.53f, 0.54f, 1);
         StatusColorObject.GetComponent<Image>().color = KitStateColorHover[InitialState];
+
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        if (IsEmpty()) return;
+        if (FinishReservation || IsEmpty()) return;
         
         KitHover.SetActive(false);
         GetComponent<Image>().color = new Color(0.51f,0.57f,0.60f,1f);
         StatusColorObject.GetComponent<Image>().color = KitStateColorNormal[InitialState];
-        
     }
-
 
     public bool IsAvailable()
     {
