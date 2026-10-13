@@ -75,14 +75,6 @@ After returning through Home, the reserved kit appears as unavailable and remain
 | Confirm Reservation | Continues after selecting an available time slot. |
 | Home | Completes the flow, marks the kit as unavailable, and returns to kit selection. |
 
-## Resetting the Tests
-
-In Unity, stop Play mode and start it again from `SceneAStart` or `SceneBStart`. With the current project configuration, this resets the session data.
-
-In the build, close the application completely and reopen it.
-
-**Home does not reset the inventory:** it keeps kits reserved during the session blocked. There is currently no dedicated button to reset the scenarios within the application.
-
 ### Running the Builds (Scenario A and Scenario B)
 
 The repository now includes standalone builds for both scenarios. To run them locally:
