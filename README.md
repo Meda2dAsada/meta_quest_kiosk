@@ -11,7 +11,7 @@ The demonstration uses predefined dates and time slots in September 2026.
 - [Testing report](docs/testing.md)
 - [AI usage log](docs/ai-use.md)
 - **Build on GitHub Release:** LINK TO BE ADDED.
-- **Demonstration video:** LINK TO BE ADDED.
+- [Demonstration video] (https://drive.google.com/file/d/1BVozf70XtHxFv7hFseE067CqmO4SCCRN/view?usp=sharing).
 
 ## Team Members and Contributions
 
