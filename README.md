@@ -10,7 +10,8 @@ The demonstration uses predefined dates and time slots in September 2026.
 - [Design report](Docs/Design.pdf)
 - [Testing report](Docs/Testing.pdf)
 - [AI usage log](Docs/AI-Use.pdf)
-- **Build on GitHub Release:** LINK TO BE ADDED.
+- [Scenario A — Windows build](BuildSceneA/)
+- [Scenario B — Windows build](BuildSceneB/)
 - [Demonstration video](https://drive.google.com/file/d/1BVozf70XtHxFv7hFseE067CqmO4SCCRN/view?usp=sharing).
 
 ## Team Members and Contributions
