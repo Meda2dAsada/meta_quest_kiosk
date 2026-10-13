@@ -90,6 +90,16 @@ In the build, close the application completely and reopen it.
 
 **Home does not reset the inventory:** it keeps kits reserved during the session blocked. There is currently no dedicated button to reset the scenarios within the application.
 
+### Running the Builds (Scenario A and Scenario B)
+
+The repository now includes standalone builds for both scenarios. To run them locally:
+
+1. Navigate to the `BuildSceneA` or `BuildSceneB` folder within your cloned or downloaded repository.
+2. Run the corresponding `.exe` file (e.g., `BuildSceneA.exe` or `BuildSceneB.exe`).
+3. Make sure to keep the `.exe` file alongside its respective data folders (such as the `_Data` folder) so the application runs correctly.
+
+*Note: Each scenario has its own independent executable. To test the other scenario, simply close the current application and run the `.exe` from the other folder.*
+
 ## Known Limitations
 
 - Reservations and availability changes remain in memory during the session; they are not preserved after closing the application.
