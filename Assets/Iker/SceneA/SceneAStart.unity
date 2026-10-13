@@ -599,7 +599,8 @@ PrefabInstance:
       propertyPath: NextSceneName
       value: CalendarioScenarioA
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8695820979377187339, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -708,7 +709,8 @@ PrefabInstance:
       propertyPath: NextSceneName
       value: CalendarioScenarioA
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8695820979377187339, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1256,7 +1258,8 @@ PrefabInstance:
       propertyPath: NextSceneName
       value: CalendarioScenarioA
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8695820979377187339, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1365,7 +1368,8 @@ PrefabInstance:
       propertyPath: NextSceneName
       value: CalendarioScenarioA
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8695820979377187339, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

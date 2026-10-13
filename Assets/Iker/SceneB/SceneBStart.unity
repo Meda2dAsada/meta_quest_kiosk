@@ -589,19 +589,23 @@ PrefabInstance:
       propertyPath: NextSceneName
       value: CalendarioScenarioB1
       objectReference: {fileID: 0}
+    - target: {fileID: 9004282445258098390, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
+      propertyPath: KitNumber
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9004282445258098390, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
+      propertyPath: InitialState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9004282445258098390, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
+      propertyPath: NextSceneName
+      value: CalendarioScenarioB1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4849888574904525496, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 526891216}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
---- !u!1 &250774618 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4849888574904525496, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
-  m_PrefabInstance: {fileID: 250774617}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &361277760 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8673940167668613196, guid: 014a95031062ee14ea293edb08711444, type: 3}
@@ -617,19 +621,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 813784960806996321, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
   m_PrefabInstance: {fileID: 250774617}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &526891216
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 250774618}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ad0af57f8ac6974fb094716e7c17b0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LoadSceneOnClick
-  NextSceneName: CalendarioScenarioB1
 --- !u!1001 &527992087
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -734,19 +725,23 @@ PrefabInstance:
       propertyPath: NextSceneName
       value: CalendarioScenarioB1
       objectReference: {fileID: 0}
+    - target: {fileID: 9004282445258098390, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
+      propertyPath: KitNumber
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9004282445258098390, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
+      propertyPath: InitialState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9004282445258098390, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
+      propertyPath: NextSceneName
+      value: CalendarioScenarioB1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4849888574904525496, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1957789573}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
---- !u!1 &527992088 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4849888574904525496, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
-  m_PrefabInstance: {fileID: 527992087}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &971792757 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 813784960806996321, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
@@ -861,19 +856,23 @@ PrefabInstance:
       propertyPath: NextSceneName
       value: CalendarioScenarioB1
       objectReference: {fileID: 0}
+    - target: {fileID: 9004282445258098390, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
+      propertyPath: KitNumber
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9004282445258098390, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
+      propertyPath: InitialState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9004282445258098390, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
+      propertyPath: NextSceneName
+      value: CalendarioScenarioB1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4849888574904525496, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2056587073}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
---- !u!1 &1466395749 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4849888574904525496, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
-  m_PrefabInstance: {fileID: 1466395748}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1471448034
 GameObject:
   m_ObjectHideFlags: 0
@@ -1057,32 +1056,23 @@ PrefabInstance:
       propertyPath: NextSceneName
       value: CalendarioScenarioB1
       objectReference: {fileID: 0}
+    - target: {fileID: 9004282445258098390, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
+      propertyPath: KitNumber
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9004282445258098390, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
+      propertyPath: InitialState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9004282445258098390, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
+      propertyPath: NextSceneName
+      value: CalendarioScenarioB1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4849888574904525496, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1777256823}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
---- !u!1 &1777256822 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4849888574904525496, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
-  m_PrefabInstance: {fileID: 1777256821}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1777256823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1777256822}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ad0af57f8ac6974fb094716e7c17b0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LoadSceneOnClick
-  NextSceneName: CalendarioScenarioB1
 --- !u!1 &1838730982
 GameObject:
   m_ObjectHideFlags: 0
@@ -1314,68 +1304,33 @@ PrefabInstance:
       propertyPath: NextSceneName
       value: CalendarioScenarioB1
       objectReference: {fileID: 0}
+    - target: {fileID: 9004282445258098390, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
+      propertyPath: KitNumber
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9004282445258098390, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
+      propertyPath: InitialState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9004282445258098390, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
+      propertyPath: NextSceneName
+      value: CalendarioScenarioB1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4849888574904525496, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1938867023}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
---- !u!1 &1938867022 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4849888574904525496, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
-  m_PrefabInstance: {fileID: 1938867021}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1938867023
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1938867022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ad0af57f8ac6974fb094716e7c17b0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LoadSceneOnClick
-  NextSceneName: CalendarioScenarioB1
 --- !u!224 &1957789572 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 813784960806996321, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
   m_PrefabInstance: {fileID: 527992087}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1957789573
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 527992088}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ad0af57f8ac6974fb094716e7c17b0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LoadSceneOnClick
-  NextSceneName: CalendarioScenarioB1
 --- !u!224 &2056587072 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 813784960806996321, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
   m_PrefabInstance: {fileID: 1466395748}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2056587073
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1466395749}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ad0af57f8ac6974fb094716e7c17b0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LoadSceneOnClick
-  NextSceneName: CalendarioScenarioB1
 --- !u!1001 &5059941707132743098
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1590,6 +1545,10 @@ PrefabInstance:
       value: Kit 1
       objectReference: {fileID: 0}
     - target: {fileID: 8265590513488396328, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
+      propertyPath: KitNumber
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265590513488396328, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
       propertyPath: InitialState
       value: 2
       objectReference: {fileID: 0}
@@ -1597,36 +1556,19 @@ PrefabInstance:
       propertyPath: NextSceneName
       value: CalendarioScenarioB1
       objectReference: {fileID: 0}
-    - target: {fileID: 8265590513488396328, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
-      propertyPath: KitNumber
-      value: 1
+    - target: {fileID: 9004282445258098390, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
+      propertyPath: InitialState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9004282445258098390, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
+      propertyPath: NextSceneName
+      value: CalendarioScenarioB1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4849888574904525496, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 8362786193452255735}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
---- !u!1 &8362786193452255734 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4849888574904525496, guid: 27b678c30bd6d9a46ae4ca707190be14, type: 3}
-  m_PrefabInstance: {fileID: 8362786193452255733}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &8362786193452255735
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8362786193452255734}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ad0af57f8ac6974fb094716e7c17b0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LoadSceneOnClick
-  NextSceneName: CalendarioScenarioB1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
