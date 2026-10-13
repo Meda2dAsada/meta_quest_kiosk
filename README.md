@@ -64,14 +64,6 @@ After returning through Home, the reserved kit appears as unavailable and remain
 6. Select the time slot, confirm, and continue to the pickup information.
 7. Click **Home** to return to kit selection.
 
-### Running the Build
-
-1. Download the compressed file from the GitHub Release linked above.
-2. Extract the entire folder.
-3. Run the `.exe` file, keeping the other build files and folders alongside it.
-
-With the current configuration, the build starts in **Scenario A**. To test **Scenario B**, open its initial scene in Unity; the application does not yet include a scenario selector.
-
 ## Controls
 
 | Control | Action |
