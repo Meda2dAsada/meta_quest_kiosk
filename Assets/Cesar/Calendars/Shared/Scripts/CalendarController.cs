@@ -1,0 +1,70 @@
+using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
+public class CalendarController : MonoBehaviour
+{
+    
+    //Atributos
+    public bool B1;
+    public int SelectedDay = 22;
+
+    public Button horario1000;
+    public Button horario1130;
+    public Button confirmButton;
+    public CanvasGroup confirmGroup;
+
+    private bool horarioSeleccionado;
+    
+    //Metodos
+    void Start() {
+        horarioSeleccionado = false;
+        horario1000.transition = Selectable.Transition.None;
+        horario1130.transition = Selectable.Transition.None;
+        confirmButton.transition = Selectable.Transition.None;
+        
+        horario1000.interactable = false;
+        horario1130.interactable = !B1;
+        confirmButton.interactable = false;
+        confirmGroup.alpha = 0.45f;
+    }
+
+    public void SeleccionarHorario() {
+        if (B1)
+        {
+            return;
+        }
+        horarioSeleccionado = true;
+        confirmButton.interactable = true;
+        confirmGroup.alpha = 1f;
+    }
+
+    public void Back() {
+        if (gameObject.scene.name == "CalendarioScenarioA") {
+            SceneManager.LoadScene("SceneAStart");
+        }
+        else {
+            SceneManager.LoadScene("SceneBStart");
+        }
+    }
+
+    public void Day28() {
+        if (B1) {
+            SceneManager.LoadScene("CalendarioScenarioB2");
+        }
+    }
+
+    public void Confirm() {
+        if (B1 || !horarioSeleccionado)
+        {
+            return;
+        }
+
+        if (gameObject.scene.name == "CalendarioScenarioA") {
+            SceneManager.LoadScene("KitShowCaseA");
+        }
+        else if (gameObject.scene.name == "CalendarioScenarioB2") {
+            SceneManager.LoadScene("KitShowCaseB");
+        }
+    }
+}
