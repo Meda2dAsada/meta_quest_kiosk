@@ -7,9 +7,9 @@ The demonstration uses predefined dates and time slots in September 2026.
 ## Submission Links
 
 - [Original Figma prototype](https://www.figma.com/design/MeLB0xtBHJW6xkiPqwrDXi/HCI-First-Partial-Proyect?node-id=0-1)
-- [Design report](docs/design.md)
-- [Testing report](docs/testing.md)
-- [AI usage log](docs/ai-use.md)
+- [Design report](docs/Design.pdf)
+- [Testing report](docs/Testing.pdf)
+- [AI usage log](docs/AI-Use.pdf)
 - **Build on GitHub Release:** LINK TO BE ADDED.
 - [Demonstration video](https://drive.google.com/file/d/1BVozf70XtHxFv7hFseE067CqmO4SCCRN/view?usp=sharing).
 
