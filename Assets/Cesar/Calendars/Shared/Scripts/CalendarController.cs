@@ -39,6 +39,15 @@ public class CalendarController : MonoBehaviour
         confirmGroup.alpha = 1f;
     }
 
+    public void Back() {
+        if (gameObject.scene.name == "CalendarioScenarioA") {
+            SceneManager.LoadScene("SceneAStart");
+        }
+        else {
+            SceneManager.LoadScene("SceneBStart");
+        }
+    }
+
     public void Day28() {
         if (B1) {
             SceneManager.LoadScene("CalendarioScenarioB2");

@@ -3440,7 +3440,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 398718331}
         m_TargetAssemblyTypeName: CalendarController, Assembly-CSharp
         m_MethodName: SeleccionarHorario
         m_Mode: 1
@@ -4407,13 +4407,39 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8673940167668613196, guid: 014a95031062ee14ea293edb08711444, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2050632665}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1393217776160016086, guid: 014a95031062ee14ea293edb08711444, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 398718331}
   m_SourcePrefab: {fileID: 100100000, guid: 014a95031062ee14ea293edb08711444, type: 3}
 --- !u!224 &398718329 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8673940167668613196, guid: 014a95031062ee14ea293edb08711444, type: 3}
   m_PrefabInstance: {fileID: 398718328}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &398718330 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1393217776160016086, guid: 014a95031062ee14ea293edb08711444, type: 3}
+  m_PrefabInstance: {fileID: 398718328}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &398718331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 398718330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99abf3184162f3946a0bcf4d310790f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CalendarController
+  B1: 0
+  SelectedDay: 22
+  horario1000: {fileID: 321736436}
+  horario1130: {fileID: 286729717}
+  confirmButton: {fileID: 2050632668}
+  confirmGroup: {fileID: 2050632667}
 --- !u!1 &401243543
 GameObject:
   m_ObjectHideFlags: 0
@@ -12976,6 +13002,58 @@ PrefabInstance:
       propertyPath: m_Name
       value: BackButton
       objectReference: {fileID: 0}
+    - target: {fileID: 7553102619193860435, guid: dcec74f54fcd20e458e96c7dd1c5ddaa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7553102619193860435, guid: dcec74f54fcd20e458e96c7dd1c5ddaa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 398718331}
+    - target: {fileID: 7553102619193860435, guid: dcec74f54fcd20e458e96c7dd1c5ddaa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CalendarController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7553102619193860435, guid: dcec74f54fcd20e458e96c7dd1c5ddaa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Back
+      objectReference: {fileID: 0}
+    - target: {fileID: 7553102619193860435, guid: dcec74f54fcd20e458e96c7dd1c5ddaa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7553102619193860435, guid: dcec74f54fcd20e458e96c7dd1c5ddaa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7553102619193860435, guid: dcec74f54fcd20e458e96c7dd1c5ddaa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7553102619193860435, guid: dcec74f54fcd20e458e96c7dd1c5ddaa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7553102619193860435, guid: dcec74f54fcd20e458e96c7dd1c5ddaa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7553102619193860435, guid: dcec74f54fcd20e458e96c7dd1c5ddaa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7553102619193860435, guid: dcec74f54fcd20e458e96c7dd1c5ddaa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7553102619193860435, guid: dcec74f54fcd20e458e96c7dd1c5ddaa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4676408400840528207, guid: dcec74f54fcd20e458e96c7dd1c5ddaa, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15264,7 +15342,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 398718331}
         m_TargetAssemblyTypeName: CalendarController, Assembly-CSharp
         m_MethodName: Confirm
         m_Mode: 1
