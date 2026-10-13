@@ -86,8 +86,5 @@ The repository now includes standalone builds for both scenarios. To run them lo
 *Note: Each scenario has its own independent executable. To test the other scenario, simply close the current application and run the `.exe` from the other folder.*
 
 ## Known Limitations
-
-- Reservations and availability changes remain in memory during the session; they are not preserved after closing the application.
 - The calendars use demonstration dates and time slots. They do not support choosing any date freely or changing the duration.
 - Returning to the calendar requires selecting the time slot again.
-- The contents screen allows users to review the accessories visually, but it does not automatically verify that all items are present before continuing.
